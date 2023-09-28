@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSURANCE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <h1>محاسبه آنلاین قیمت بیمه خودرو</h1>
+
+        <label for="">:مدل خودرو
+            <select name="" id="CarModel">
+                <option value="1">پراید</option>
+                <option value="2">اپتیما</option>
+                <option value="3">پورشه</option>
+            </select>
+        </label>
+        <label for="">: سال ساخت
+            <select name="" id="listDate">
+
+            </select>
+        </label>
+
+        <form action="x">
+            <h3>نوع بیمه</h3>
+            <div>
+                <label for="1">ساده - شخص ثالث</label>
+                <input type="radio" name="x" id="1" class="checkBox">
+            </div>
+
+            <div>
+                <label for="2">کامل - شخص ثالث با بیمه بدنه</label>
+                <input type="radio" name="x" id="2" class="checkBox">
+            </div>
+        </form>
+        <div id="divFactor">
+
+        </div>
+        <!-- <div id="factor">
+            <h1>خلاصه فاکتور</h1>
+            <span>مدل ماشین:${}</span>
+            <span> سال ساخت:${}</span>
+            <span> نوع بیمه:${}</span>
+            <span> قیمت نهایی:${}</span>
+        </div> -->
+
+        <button id="btn">محاسبه قیمت</button>
+
+    </main>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
