@@ -17,9 +17,9 @@
 
         <label for="">:مدل خودرو
             <select name="" id="CarModel">
-                <option value="1">پراید</option>
-                <option value="2">اپتیما</option>
-                <option value="3">پورشه</option>
+                <option value="پراید">پراید</option>
+                <option value="اپتیما">اپتیما</option>
+                <option value="پورشه">پورشه</option>
             </select>
         </label>
         <label for="">: سال ساخت
@@ -32,24 +32,20 @@
             <h3>نوع بیمه</h3>
             <div>
                 <label for="1">ساده - شخص ثالث</label>
-                <input type="radio" name="x" id="1" class="checkBox">
+                <input type="radio" name="x" id="1" class="checkBox checkBox1">
             </div>
 
             <div>
                 <label for="2">کامل - شخص ثالث با بیمه بدنه</label>
-                <input type="radio" name="x" id="2" class="checkBox">
+                <input type="radio" name="x" id="2" class="checkBox checkBox2">
             </div>
         </form>
         <div id="divFactor">
-
+            <div id="loading">
+                <div></div>
+                <div></div>
+            </div>
         </div>
-        <!-- <div id="factor">
-            <h1>خلاصه فاکتور</h1>
-            <span>مدل ماشین:${}</span>
-            <span> سال ساخت:${}</span>
-            <span> نوع بیمه:${}</span>
-            <span> قیمت نهایی:${}</span>
-        </div> -->
 
         <button id="btn">محاسبه قیمت</button>
 
